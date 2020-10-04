@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>puppyAgeCal</title>
+
+<script type="text/javascript">
+    function onSubmit()
+    {
+        let length=document.getElementById("length").value;
+        console.log(length)
+        let breadth=document.getElementById("breadth").value;
+        if(length=="")
+        {
+            alert("length can't be blank");
+        }
+        else if(breadth=="")
+        {
+            alert("breadth can't be blank");
+        }
+        else
+        {
+            let area=breadth*length;
+            alert("area is: "+area);
+    
+        }
+    
+        
+    }
+    
+    
+    </script>
+</head>
+
+<body>
+Length:<br><input type="text" id="length"><br>
+breadth:<br><input type="text" id="breadth"><br>
+<input type="button" id="submit" value="Submit" onclick="onSubmit()">
+
+</body>
+</html>
