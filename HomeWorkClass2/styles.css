@@ -1,0 +1,26 @@
+
+.header
+{
+    background-color: cadetblue;
+}
+
+.row1
+{
+    background-color:green;
+}
+
+.row2
+{
+    background-color:coral;
+}
+
+tr:hover
+{
+    background-color:blueviolet;
+}
+
+img
+{
+    border:15px solid burlywood;
+
+}
